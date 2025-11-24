@@ -18,7 +18,7 @@ public class MainView extends VerticalLayout {
         getStyle()
                 
 
-                .set("background-color", "#050509")
+                .set("background", "linear-gradient(90deg, #000000 0%, #0b0b0b 55%, #3a0e0e 75%, #7a1e1e 100%)")
                 .set("color","#f5f5ff")
                 .set("font-family", "system-ui");
         H1 title = new H1("Movies2c");
