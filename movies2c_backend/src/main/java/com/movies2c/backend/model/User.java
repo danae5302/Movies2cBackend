@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.lang.annotation.Documented;
 import java.time.LocalDate;
 
-@Document("users")
+@Document(collection = "Users")
 @Getter
 @Setter
 @NoArgsConstructor
@@ -23,6 +23,6 @@ public class User {
     private String userName;
     private String email;
     private String passwordHash;
-    private LocalDate date;
+    private long date;
 
 }

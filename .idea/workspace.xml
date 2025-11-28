@@ -5,20 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53a29fb3-aed5-4b3d-9902-5ced039a4295" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/repositories/QuizRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/repositories/UserFavoriteActorsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/repositories/UserFavoriteMoviesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/repositories/UserQuizRatingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/repositories/UserReviewsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/SignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/Quiz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserFavoriteActors.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserFavoriteActors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserFavoriteMovies.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserFavoriteMovies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserQuizRating.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserQuizRating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserReviews.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserReviews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +53,9 @@
     &quot;accountId&quot;: &quot;1dc7c7b3-609f-4b5a-9247-f6758ca0ff29&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -83,10 +85,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
