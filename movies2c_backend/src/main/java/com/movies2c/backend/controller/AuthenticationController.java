@@ -24,11 +24,11 @@ public class AuthenticationController {
         this.authenticationService=authenticationService;
     }
 
-//    @PostMapping("/login")
-//    public ResponseEntity<?> login(@RequestBody LoginRequest loginRequest){
-//        ResponseEntity<?> response = authenticationService.login(loginRequest.getEmail(), loginRequest.getPassword());
-//        return  response;
-//    }
+    @PostMapping("/login")
+    public String login(@RequestBody LoginRequest loginRequest){
+        String response = authenticationService.login(loginRequest.getEmail(), loginRequest.getPassword());
+        return  response;
+    }
 
     @PostMapping("/create")
     public ResponseEntity<?> createUser (@RequestBody SignupRequest signupRequest){
