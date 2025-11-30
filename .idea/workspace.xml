@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53a29fb3-aed5-4b3d-9902-5ced039a4295" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/UserToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/repositories/UserTokenRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/java/com/movies2c/backend/service/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movies2c_backend/src/test/java/com/movies2c/backend/Movies2cBackendApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="53a29fb3-aed5-4b3d-9902-5ced039a4295" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,5 +144,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
