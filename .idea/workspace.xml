@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53a29fb3-aed5-4b3d-9902-5ced039a4295" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/movies2c_backend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies2c_backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/movies2c_backend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +34,12 @@
     &quot;assignee&quot;: &quot;kreeeks&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/serraikaakinita/Movies2cBackend.git",
-    "accountId": "1dc7c7b3-609f-4b5a-9247-f6758ca0ff29"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/serraikaakinita/Movies2cBackend.git&quot;,
+    &quot;accountId&quot;: &quot;1dc7c7b3-609f-4b5a-9247-f6758ca0ff29&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -65,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.Movies2cUiApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "#14 on pr/14",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/danae/Desktop/texnoliges/Movies2cBackend",

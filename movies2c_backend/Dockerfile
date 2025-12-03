@@ -2,7 +2,7 @@ FROM maven:3.8.5-openjdk-17 AS build
 COPY . .
 RUN mvn clean package -DskipTests
 FROM openjdk:17.0.1-jdk-slim
-COPY --from=build /target/Movies2c-0.0.1-SNAPSHOT.jar Movies2c.jar
+COPY --from=build /target/movies2c_backend-0.0.1-SNAPSHOT.jar movies2c_backend.jar
 EXPOSE 8080
 
-ENTRYPOINT ["java","-jar","Movies2c.jar"]
+ENTRYPOINT ["java","-jar","movies2c_backend.jar"]
